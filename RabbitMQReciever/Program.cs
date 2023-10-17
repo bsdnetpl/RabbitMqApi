@@ -4,7 +4,7 @@ using System.Text;
 
 var factory = new ConnectionFactory();
 
-    factory.HostName = "10.0.0.15";
+factory.HostName = "10.0.0.15";
 //factory.Port = 15672;
 factory.UserName = "adi";
 factory.Password = "123!@#";
